@@ -89,6 +89,12 @@ async function hideCookieBanners(page) {
         element.remove();
       }
     }
+    // Some demos show the WebScale bar as a sticky strip, which the fixed-only check above misses.
+    for (const element of document.querySelectorAll('body > div')) {
+      if (/designed and built by webscale/i.test(element.textContent || '') && element.getBoundingClientRect().height < 120) {
+        element.remove();
+      }
+    }
   });
 }
 
@@ -170,6 +176,8 @@ async function captureTarget(browser, url, target) {
     isMobile: Boolean(target.mobile),
     hasTouch: Boolean(target.mobile),
     locale: 'en-US',
+    // Reduced motion makes scroll-reveal sections render in their final state instead of blank.
+    reducedMotion: 'reduce',
   });
   try {
     const page = await context.newPage();
