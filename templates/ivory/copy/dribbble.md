@@ -1,12 +1,11 @@
-Title: Ivory, Dental Clinic Website Template
+Title: Ivory, Dental Clinic Website
 
 Description:
-Ivory is a website template for dental clinics, with a smile map that shows services and prices by area, a tabbed price list and a before and after slider. It also includes a dental team section, a step-by-step first visit, opening hours and a contact section, in Polish and English versions. Built with Astro and Tailwind CSS, with desktop, tablet and mobile layouts.
+Ivory is a website design for dental clinics that need to explain treatments and prices without overwhelming patients. The main idea is a smile map that lets visitors pick an area and see its services with prices, supported by tabbed price lists and a before and after slider. A cobalt and sand palette, the Red Hat Display typeface and a bento layout keep the page calm and modern, while a dental team section and a children's duty block show what sets the clinic apart. The layout is designed for desktop, tablet and mobile screens.
+Photos were created with the help of AI image tools and edited for the layout.
+More of our work: https://webscale.pl/en/
 
-See the template: https://webscale.pl/en/ready-made-websites/ivory/
-Need a website like this? Get a free quote: https://webscale.pl/en/quote/
-
-Tags: dental clinic, dentist, dental, website template, landing page, web design, astro, tailwind
+Tags: dental clinic, dentist, dental care, web design, ui design, website, astro, tailwind
 
 Blocks:
 1. dribbble-1600x1200.png

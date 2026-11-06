@@ -1,12 +1,11 @@
-Title: Greenline, Gardening and Garden Care Website Template
+Title: Greenline, Gardening and Garden Care Website
 
 Description:
-Greenline is a website template for garden design, planting and seasonal garden care businesses. It includes a services overview, a projects gallery, a process section from first contact to completed work and a contact form, in Polish and English versions. Built with Astro and Tailwind CSS, with desktop, tablet and mobile layouts.
+Greenline is a website design for garden design, planting and seasonal garden care businesses that want their finished work to come first. The layout pairs a clear services overview with a projects gallery, so visitors see the results before they read the details. A process section walks through the steps from first contact to completed work, and a contact form closes the page. Calm greenery, light surfaces and a clear green accent give it a fresh, natural character, and the design covers desktop, tablet and mobile screens.
+Photos were created with the help of AI image tools and edited for the layout.
+More of our work: https://webscale.pl/en/
 
-See the template: https://webscale.pl/en/ready-made-websites/greenline/
-Need a website like this? Get a free quote: https://webscale.pl/en/quote/
-
-Tags: gardening, garden care, garden design, website template, landing page, web design, astro, tailwind
+Tags: gardening, garden design, garden care, web design, ui design, website, astro, tailwind
 
 Blocks:
 1. dribbble-1600x1200.png

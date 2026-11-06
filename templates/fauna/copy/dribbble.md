@@ -1,12 +1,11 @@
-Title: Fauna, Veterinary Clinic Website Template
+Title: Fauna, Veterinary Clinic Website
 
 Description:
-Fauna is a website template for veterinary clinics, with a pet switch for services and prices, a 24/7 emergency line and a vet team. It also includes a price table for common treatments, a first visit guide, a visit form and a styled map, in Polish and English versions. Built with Astro and Tailwind CSS, with desktop, tablet and mobile layouts.
+Fauna is a website design for veterinary clinics that want a warm, trustworthy first impression. The first screen leads with a clear visit and emergency call to action, and a pet switch shows services and vaccination prices for dogs, cats, rabbits and exotic pets. Warm apricot, deep navy and a friendly mascot set the colour and illustration direction, while a price table, a four-step first visit guide and a styled map answer the questions owners ask most. The layout is designed for desktop, tablet and mobile screens.
+Photos were created with the help of AI image tools and edited for the layout.
+More of our work: https://webscale.pl/en/
 
-See the template: https://webscale.pl/en/ready-made-websites/fauna/
-Need a website like this? Get a free quote: https://webscale.pl/en/quote/
-
-Tags: veterinary clinic, veterinary, pet clinic, website template, landing page, web design, astro, tailwind
+Tags: veterinary clinic, veterinary, pet care, web design, ui design, website, astro, tailwind
 
 Blocks:
 1. dribbble-1600x1200.png

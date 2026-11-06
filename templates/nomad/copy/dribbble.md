@@ -1,12 +1,11 @@
-Title: Nomad, Moving Company Website Template
+Title: Nomad, Moving Company Website
 
 Description:
-Nomad is a website template for moving companies, with a three-step quote on the first screen, priced packages for flats, houses and offices, and an hour by hour moving day plan. It also includes a fleet with load capacities, an insurance section and preparation checklists, in Polish and English versions. Built with Astro and Tailwind CSS, with desktop, tablet and mobile layouts.
+Nomad is a website design for moving companies that need visitors to estimate a move quickly and understand the process before booking. The first screen puts a three-step form for route, size and date above the fold, followed by priced packages for flats, houses and offices and an hour by hour moving day plan. An orange accent, deep navy and condensed type give it a practical, transport character, while the fleet with load capacities and the insurance section answer the most common questions. The layout is designed for desktop, tablet and mobile screens.
+Photos were created with the help of AI image tools and edited for the layout.
+More of our work: https://webscale.pl/en/
 
-See the template: https://webscale.pl/en/ready-made-websites/nomad/
-Need a website like this? Get a free quote: https://webscale.pl/en/quote/
-
-Tags: moving company, moving, relocation, website template, landing page, web design, astro, tailwind
+Tags: moving company, relocation, moving services, web design, ui design, website, astro, tailwind
 
 Blocks:
 1. dribbble-1600x1200.png
