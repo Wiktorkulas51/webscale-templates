@@ -1,0 +1,16 @@
+{
+  "name": "webscale-templates",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebScale Templates catalog: free and premium Astro website templates, with generated preview assets and README.",
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/build-assets.mjs",
+    "readme": "node scripts/build-readme.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.64.1",
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "T002",
+  "slug": "forma",
+  "name": "Forma",
+  "tagline": "Ready-made website for construction and renovation companies",
+  "description": "Forma is a website template for construction and renovation companies, with services, a project gallery, a work process and a contact form. Light surfaces, graphite typography and an amber accent give it a calm, architectural character. Replace the sample copy, photos and logo with your own before publishing.",
+  "category": "business",
+  "industry": "Construction and renovation",
+  "stack": ["astro", "tailwind"],
+  "pricing": "free",
+  "priceUsd": 0,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/forma/",
+    "sourceRepo": "https://github.com/Wiktorkulas51/forma-astro-template",
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/forma-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/forma/"
+  },
+  "features": [
+    "Hero section with a clear call to action",
+    "Services overview for construction and renovation work",
+    "Project gallery to replace with your own photography",
+    "Collaboration principles and work process steps",
+    "Testimonials, to be replaced with genuine feedback",
+    "Service area section",
+    "FAQ",
+    "Contact form and footer",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["github", "gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "T004",
+  "slug": "greenline",
+  "name": "Greenline",
+  "tagline": "Ready-made website for garden design and garden care businesses",
+  "description": "Greenline is a website template for garden design, planting and seasonal garden care businesses, with services, projects, a process section and a contact form. Calm greenery, light surfaces and a clear green accent give it a fresh, natural character. Replace the sample copy, photos and logo with your own before publishing.",
+  "category": "business",
+  "industry": "Gardening and garden care",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/greenline/",
+    "sourceRepo": null,
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/greenline-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/greenline/"
+  },
+  "features": [
+    "Hero section with a clear call to action",
+    "Services overview for garden design and care",
+    "Team and figures section",
+    "Process section from first contact to completed work",
+    "Testimonials, to be replaced with genuine feedback",
+    "Projects gallery",
+    "About section",
+    "Call-to-action block and contact form",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}
