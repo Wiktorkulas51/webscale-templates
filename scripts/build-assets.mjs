@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Builds marketplace and social preview assets for each template from its live demo URL.
-// Usage: npm run assets [-- --only <slug>]
+// Usage: npm run assets [-- --only <slug>] [--files <text>]
+// --files keeps only targets whose file name contains the text, e.g. --files dribbble-screen re-renders just the Dribbble blocks.
 
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -27,6 +28,10 @@ const TARGETS = [
   { file: 'screen-16x9-01.webp', width: 1280, height: 720, scale: 1, format: 'webp', section: 'early' },
   { file: 'screen-16x9-02.webp', width: 1280, height: 720, scale: 1, format: 'webp', section: 'middle' },
   { file: 'screen-16x9-03.webp', width: 1280, height: 720, scale: 1, format: 'webp', section: 'late' },
+  // Dribbble shot blocks must be at least 1600 px wide, so these are 1280 x 1.25 like the cover above.
+  { file: 'dribbble-screen-01-1600x1200.png', width: 1280, height: 960, scale: 1.25, format: 'png', section: 'early' },
+  { file: 'dribbble-screen-02-1600x1200.png', width: 1280, height: 960, scale: 1.25, format: 'png', section: 'middle' },
+  { file: 'dribbble-screen-03-1600x1200.png', width: 1280, height: 960, scale: 1.25, format: 'png', section: 'late' },
 ];
 
 // WebScale rate-limits (HTTP 429), so pauses between loads and retries are part of the contract.
@@ -35,11 +40,11 @@ const RETRY_DELAYS_MS = [15000, 30000, 60000];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-function parseOnlyArgument(argv) {
-  const index = argv.findIndex((arg) => arg === '--only' || arg.startsWith('--only='));
+function parseFlagArgument(argv, flag) {
+  const index = argv.findIndex((arg) => arg === flag || arg.startsWith(`${flag}=`));
   if (index === -1) return null;
   const value = argv[index].includes('=') ? argv[index].split('=')[1] : argv[index + 1];
-  if (!value) throw new Error('--only needs a template slug');
+  if (!value) throw new Error(`${flag} needs a value`);
   return value;
 }
 
@@ -193,7 +198,11 @@ async function verifyDimensions(buffer, target) {
 }
 
 async function main() {
-  const onlySlug = parseOnlyArgument(process.argv.slice(2));
+  const argv = process.argv.slice(2);
+  const onlySlug = parseFlagArgument(argv, '--only');
+  const fileFilter = parseFlagArgument(argv, '--files');
+  const targets = fileFilter ? TARGETS.filter((target) => target.file.includes(fileFilter)) : TARGETS;
+  if (targets.length === 0) throw new Error(`No asset target matches --files "${fileFilter}"`);
   const templates = await loadTemplates(onlySlug);
   const browser = await chromium.launch();
   try {
@@ -201,7 +210,7 @@ async function main() {
       const assetsDir = path.join(TEMPLATES_DIR, template.slug, 'assets');
       await mkdir(assetsDir, { recursive: true });
       console.log(`${template.id} ${template.slug}: ${template.links.liveDemo}`);
-      for (const target of TARGETS) {
+      for (const target of targets) {
         const buffer = await captureTarget(browser, template.links.liveDemo, target);
         const { width, height } = await verifyDimensions(buffer, target);
         await writeFile(path.join(assetsDir, target.file), buffer);

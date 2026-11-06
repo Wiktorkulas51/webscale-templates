@@ -123,6 +123,7 @@ function buildReadme(templates) {
     'npm install',
     'npm run assets            # regenerate preview images from the live demos',
     'npm run assets -- --only forma',
+    'npm run assets -- --only forma --files dribbble-screen   # re-render only file names containing the text',
     'npm run readme            # regenerate this README from templates/*/template.json',
     '```',
     '',
