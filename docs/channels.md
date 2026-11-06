@@ -12,6 +12,7 @@ Requirements come from the WebScale channel playbooks. Items marked "unconfirmed
 | `dribbble` | Dribbble shot | `dribbble-1600x1200.png` (cover block), then `dribbble-screen-01..03-1600x1200.png`, text from `copy/dribbble.md` | 1600 x 1200, PNG, max 10 MB | Minimum width 1600 px. The 4:3 size is the package standard, not a Dribbble requirement. Title, description, tags and block order are in `templates/<slug>/copy/dribbble.md`. Present as design work, never as a template for sale. No links or self-promotion in the description. |
 | `behance` | Behance project | `behance-1616x1264.png` (cover) | 1616 x 1264 (desktop viewport 1616 px, scale 1) | Cover minimum is 808 x 632. Modules: `fullpage-desktop.webp` (1440 px wide) and `mobile-390.webp`. Behance pages return 403 to scripts, so these limits come from search snippets and are unconfirmed. |
 | `webscale-site` | webscale.pl template page | `og-1200x630.webp` (Open Graph image) | 1200 x 630, WebP | The site keeps its own 1280 x 720 preview images in its repository, so the cover here is not uploaded there. |
+| `wrapmarket` | WrapMarket, Website Templates category (paid, 79 USD, Non-Exclusive) | `wrapmarket-thumb-1920x1080.png` (thumbnail), `wrapmarket-screen-01..03-1920x1080.png` (screenshots); shop image `branding/webscale-symbol-500.png` | Thumbnail and screenshots 1920 x 1080, 24-bit PNG without alpha; shop image 500 x 500 PNG | Listing text must not link to Gumroad or webscale.pl. Captured from the live preview with the fixed header hidden. Shop image is the symbol centred on white. |
 | `codester` | Codester marketplace, Themes category (paid, 79 USD) | `codester-icon-200.png` (icon), `codester-preview-1600x800.png` (preview); seller profile: `branding/codester-avatar.png`, `branding/codester-cover.png` | Icon 200 x 200, preview 1600 x 800, PNG or JPG | The ZIP with template code is never published in this repo. Icons are centre crops of `cover-1280x720.webp`. Preview is a 1600 x 800 hero capture of the live demo. Profile sizes are unconfirmed. |
 
 ## Asset list (per template)
@@ -27,5 +28,7 @@ Requirements come from the WebScale channel playbooks. Items marked "unconfirmed
 | `behance-1616x1264.png` | 1616 x 1264 | Behance |
 | `fullpage-desktop.webp` | 1440 px wide, full page | Gumroad gallery, Behance module |
 | `mobile-390.webp` | 390 x 844 | Gumroad gallery, Behance module |
+| `wrapmarket-thumb-1920x1080.png`, `wrapmarket-screen-01..03-1920x1080.png` | 1920 x 1080, 24-bit PNG | WrapMarket thumbnail and screenshots |
+| `branding/webscale-symbol-500.png` | 500 x 500 | WrapMarket shop image (symbol on white) |
 
 All images are captured from the template's `links.liveDemo` by `npm run assets`. The crops show the top of the page (the hero), except the full-page capture and the section crops (`screen-16x9-*`, `dribbble-screen-*`).
