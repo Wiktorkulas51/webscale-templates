@@ -1,0 +1,33 @@
+{
+  "id": "T001",
+  "slug": "nova",
+  "name": "Nova",
+  "tagline": "Ready-made website for creative and marketing agencies",
+  "description": "Nova is a website template for creative and marketing agencies, with services, selected work, a team section and contact. Editorial typography, large imagery and ready-made sections give the site a distinctive visual direction. Replace the copy, photos and logo with your own before publishing.",
+  "category": "business",
+  "industry": "Creative and marketing agency",
+  "stack": ["astro", "tailwind"],
+  "pricing": "free",
+  "priceUsd": 0,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/nova/",
+    "sourceRepo": "https://github.com/Wiktorkulas51/template-t001-nova",
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/ai-ready-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/nova/"
+  },
+  "features": [
+    "Hero section with a clear call to action",
+    "Logo cloud for client or partner logos",
+    "Statistics section showing experience and scale",
+    "Selected work section for projects and case studies",
+    "Services overview",
+    "Team section",
+    "FAQ",
+    "Client reviews, to be replaced with genuine feedback",
+    "Closing call to action",
+    "Navigation, company details and footer",
+    "Content in JSON with documented sections, ready for AI coding tools",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["github", "gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}

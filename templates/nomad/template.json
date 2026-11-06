@@ -1,0 +1,33 @@
+{
+  "id": "T014",
+  "slug": "nomad",
+  "name": "Nomad",
+  "tagline": "Ready-made website for moving companies",
+  "description": "Nomad is a website template for moving companies, with a three step quote on the first screen, priced packages, an hour by hour moving day plan, a fleet and insurance. An orange accent, deep navy and condensed typography give the website a practical, transport character. Replace the copy, photos, company details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Moving company",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/nomad/",
+    "sourceRepo": null,
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/nomad-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/nomad/"
+  },
+  "features": [
+    "Three step quote on the first screen: route, size and date with contact",
+    "Packages for flats, houses and offices",
+    "Moving day plan, hour by hour",
+    "What we move, and what we cannot take",
+    "Fleet with load capacities",
+    "Insurance section",
+    "Projects with route and time",
+    "Preparation checklists",
+    "Client reviews, to be replaced with genuine testimonials",
+    "Contact section and footer",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}

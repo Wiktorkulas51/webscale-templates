@@ -1,0 +1,34 @@
+{
+  "id": "T011",
+  "slug": "fauna",
+  "name": "Fauna",
+  "tagline": "Ready-made website for veterinary clinics",
+  "description": "Fauna is a website template for veterinary clinics, with a pet switch for services and prices, a 24/7 emergency line, a vet team and a styled map. Warm apricot, deep navy and a dog and cat mascot give the website a friendly, trustworthy character. Replace the copy, illustrations, clinic details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Veterinary clinic",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/fauna/",
+    "sourceRepo": null,
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/fauna-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/fauna/"
+  },
+  "features": [
+    "Hero with a mascot and buttons for a visit and the emergency line",
+    "Pet switch for services, vaccination prices and tips for dogs, cats, rabbits and exotic pets",
+    "24/7 emergency line with three steps for a pet that feels unwell",
+    "Vet team section",
+    "Price table for the most common treatments",
+    "First visit in four illustrated steps",
+    "Owner reviews, to be replaced with genuine testimonials",
+    "Visit form, opening hours and a styled map",
+    "Services list with three service subpages",
+    "Illustrated clinic rooms",
+    "Navigation, clinic details and legal links",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}

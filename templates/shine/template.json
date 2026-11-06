@@ -1,0 +1,32 @@
+{
+  "id": "T005",
+  "slug": "shine",
+  "name": "Shine",
+  "tagline": "Ready-made website for cleaning companies",
+  "description": "Shine is a website template for cleaning companies, with services, a before and after comparison, indicative prices and a quote form. Clear typography, a turquoise accent and deep navy give the website a fresh, local character. Replace the copy, photos, company details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Cleaning services",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/shine/",
+    "sourceRepo": null,
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/shine-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/shine/"
+  },
+  "features": [
+    "Hero with a quick quote estimate",
+    "Before and after comparison, to be replaced with your own photos",
+    "Four services: homes and apartments, offices, windows and post-renovation cleaning",
+    "Indicative prices per square metre with a description of the scope",
+    "Process from the first enquiry to the cleaning date",
+    "Client reviews, to be replaced with genuine testimonials",
+    "FAQ",
+    "Contact details and a quote form",
+    "Navigation, company details and legal links",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}

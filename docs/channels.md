@@ -10,7 +10,7 @@ Requirements come from the WebScale channel playbooks. Items marked "unconfirmed
 | `gumroad` | Gumroad product page | `cover-1280x720.webp` (cover), `fullpage-desktop.webp` and `mobile-390.webp` (gallery) | Cover 1280 x 720 | Cover size is from the playbook and unconfirmed in Gumroad's help. Thumbnail 600 x 600 is not generated yet. Used for paid and free ($0+) products. |
 | `astro` | Astro Themes catalog (`portal.astro.build/themes/submit`) | `cover-1280x720.webp` (first screenshot), then further screenshots | 1280 x 720 | Screenshot dimensions and count are unconfirmed. Paid themes link to the Gumroad product. |
 | `dribbble` | Dribbble shot | `dribbble-1600x1200.png` (cover block) | 1600 x 1200, PNG, max 10 MB | Minimum width 1600 px. The 4:3 size is the package standard, not a Dribbble requirement. |
-| `behance` | Behance project | `behance-1616x1264.png` (cover) | 1616 x 1264 (2x of 808 x 632) | Cover minimum is 808 x 632. Modules: `fullpage-desktop.webp` (1440 px wide) and `mobile-390.webp`. Behance pages return 403 to scripts, so these limits come from search snippets and are unconfirmed. |
+| `behance` | Behance project | `behance-1616x1264.png` (cover) | 1616 x 1264 (desktop viewport 1616 px, scale 1) | Cover minimum is 808 x 632. Modules: `fullpage-desktop.webp` (1440 px wide) and `mobile-390.webp`. Behance pages return 403 to scripts, so these limits come from search snippets and are unconfirmed. |
 | `webscale-site` | webscale.pl template page | `og-1200x630.webp` (Open Graph image) | 1200 x 630, WebP | The site keeps its own 1280 x 720 preview images in its repository, so the cover here is not uploaded there. |
 
 ## Asset list (per template)

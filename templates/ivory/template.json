@@ -1,0 +1,34 @@
+{
+  "id": "T013",
+  "slug": "ivory",
+  "name": "Ivory",
+  "tagline": "Ready-made website for dental clinics",
+  "description": "Ivory is a website template for dental clinics, with a smile map that shows prices per area, tabbed price lists, a before and after slider and a team of dentists. Cobalt and sand, the Red Hat Display typeface and a bento layout give the website a calm, modern character. Replace the copy, photos, clinic details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Dental clinic",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale.pl/preview/ivory/",
+    "sourceRepo": null,
+    "gumroad": "https://wiktorcraft172.gumroad.com/l/ivory-astro-template",
+    "details": "https://webscale.pl/en/ready-made-websites/ivory/"
+  },
+  "features": [
+    "Hero with counters",
+    "Smile map for choosing an area and seeing its services with prices",
+    "First visit step by step",
+    "Dental team section",
+    "Tabbed price list",
+    "Before and after slider",
+    "Services overview",
+    "Client reviews, to be replaced with genuine testimonials",
+    "Opening hours and children's duty section",
+    "Contact section",
+    "Navigation, clinic details and footer",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "astro", "dribbble", "behance", "webscale-site"]
+}

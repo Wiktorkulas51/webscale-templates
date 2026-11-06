@@ -17,8 +17,10 @@ const TARGETS = [
   { file: 'cover-1280x720.webp', width: 1280, height: 720, scale: 1, format: 'webp' },
   { file: 'social-preview-1280x640.png', width: 1280, height: 640, scale: 1, format: 'png', maxBytes: 1024 * 1024 },
   { file: 'og-1200x630.webp', width: 1200, height: 630, scale: 1, format: 'webp' },
-  { file: 'dribbble-1600x1200.png', width: 800, height: 600, scale: 2, format: 'png' },
-  { file: 'behance-1616x1264.png', width: 808, height: 632, scale: 2, format: 'png' },
+  // Channel shots use a desktop viewport, not a tablet one. Scale is chosen so the output lands on the
+  // channel size without resampling: 1280 x 1.25 = 1600 and 1616 x 1 = 1616 (1264 high).
+  { file: 'dribbble-1600x1200.png', width: 1280, height: 960, scale: 1.25, format: 'png' },
+  { file: 'behance-1616x1264.png', width: 1616, height: 1264, scale: 1, format: 'png' },
   { file: 'fullpage-desktop.webp', width: 1440, height: 900, scale: 1, format: 'webp', fullPage: true },
   { file: 'mobile-390.webp', width: 390, height: 844, scale: 1, format: 'webp', mobile: true },
 ];
