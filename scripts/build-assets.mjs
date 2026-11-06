@@ -23,6 +23,10 @@ const TARGETS = [
   { file: 'behance-1616x1264.png', width: 1616, height: 1264, scale: 1, format: 'png' },
   { file: 'fullpage-desktop.webp', width: 1440, height: 900, scale: 1, format: 'webp', fullPage: true },
   { file: 'mobile-390.webp', width: 390, height: 844, scale: 1, format: 'webp', mobile: true },
+  // Astro Themes wants up to 4 extra 16:9 images; sections are picked early, middle and late on the page.
+  { file: 'screen-16x9-01.webp', width: 1280, height: 720, scale: 1, format: 'webp', section: 'early' },
+  { file: 'screen-16x9-02.webp', width: 1280, height: 720, scale: 1, format: 'webp', section: 'middle' },
+  { file: 'screen-16x9-03.webp', width: 1280, height: 720, scale: 1, format: 'webp', section: 'late' },
 ];
 
 // WebScale rate-limits (HTTP 429), so pauses between loads and retries are part of the contract.
@@ -114,9 +118,29 @@ async function waitForImages(page) {
 async function preparePage(page, target) {
   await page.evaluate(() => document.fonts.ready);
   await hideCookieBanners(page);
-  if (target.fullPage) await autoScroll(page);
+  if (target.fullPage || target.section) await autoScroll(page);
   await waitForImages(page);
+  if (target.section) await scrollToSection(page, target.section);
   await page.waitForTimeout(800);
+}
+
+async function scrollToSection(page, position) {
+  // Aligning a section top under the sticky header gives a clean frame instead of a cut through two sections.
+  await page.evaluate((where) => {
+    const header = document.querySelector('header');
+    const headerHeight = header && getComputedStyle(header).position !== 'static' ? header.getBoundingClientRect().height : 0;
+    const sections = [...document.querySelectorAll('main section, body > section')]
+      .filter((section) => !section.parentElement.closest('section') && section.getBoundingClientRect().height > 300);
+    // Skip the hero (cover already shows it) and the last section, which is usually contact or footer.
+    const candidates = sections.length > 3 ? sections.slice(1, -1) : sections.slice(1);
+    if (candidates.length === 0) return;
+    const index = { early: 0, middle: Math.floor(candidates.length / 2), late: candidates.length - 1 }[where];
+    const top = candidates[index].getBoundingClientRect().top + window.scrollY - headerHeight;
+    window.scrollTo(0, Math.max(0, top));
+  }, position);
+  // Scroll-triggered reveal animations need a moment before the frame is captured.
+  await page.waitForTimeout(1200);
+  await hideCookieBanners(page);
 }
 
 async function encode(pngBuffer, target) {
