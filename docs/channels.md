@@ -12,6 +12,7 @@ Requirements come from the WebScale channel playbooks. Items marked "unconfirmed
 | `dribbble` | Dribbble shot | `dribbble-1600x1200.png` (cover block), then `dribbble-screen-01..03-1600x1200.png`, text from `copy/dribbble.md` | 1600 x 1200, PNG, max 10 MB | Minimum width 1600 px. The 4:3 size is the package standard, not a Dribbble requirement. Title, description, tags and block order are in `templates/<slug>/copy/dribbble.md`. Present as design work, never as a template for sale. No links or self-promotion in the description. |
 | `behance` | Behance project | `behance-1616x1264.png` (cover) | 1616 x 1264 (desktop viewport 1616 px, scale 1) | Cover minimum is 808 x 632. Modules: `fullpage-desktop.webp` (1440 px wide) and `mobile-390.webp`. Behance pages return 403 to scripts, so these limits come from search snippets and are unconfirmed. |
 | `webscale-site` | webscale.pl template page | `og-1200x630.webp` (Open Graph image) | 1200 x 630, WebP | The site keeps its own 1280 x 720 preview images in its repository, so the cover here is not uploaded there. |
+| `codester` | Codester marketplace, Themes category (paid, 79 USD) | `codester-icon-200.png` (icon), `codester-preview-1600x800.png` (preview); seller profile: `branding/codester-avatar.png`, `branding/codester-cover.png` | Icon 200 x 200, preview 1600 x 800, PNG or JPG | The ZIP with template code is never published in this repo. Icons are centre crops of `cover-1280x720.webp`. Preview is a 1600 x 800 hero capture of the live demo. Profile sizes are unconfirmed. |
 
 ## Asset list (per template)
 
