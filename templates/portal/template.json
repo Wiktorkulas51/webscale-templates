@@ -1,0 +1,34 @@
+{
+  "id": "T010",
+  "slug": "portal",
+  "name": "Portal",
+  "tagline": "Ready-made website for window and door companies",
+  "description": "Portal is a website template for window, door and garage door companies with a showroom, with a hero framed like a window onto a daylit room, two paths for people building a new home or replacing old windows, a product catalogue grouped into windows, doors and installation, a navy showroom section with colour swatches and questions for the adviser, a three-step process with timing on each step, a FAQ with structured data and client reviews with an average rating. Navy, oak and daylight grey with Chivo headings give the website a calm, trustworthy character. Replace the copy, products, timings, photos, reviews and legal pages with your own before publishing.",
+  "category": "business",
+  "industry": "Windows and doors",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-portal.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/portal/"
+  },
+  "features": [
+    "Hero with the photo set in a window frame and a free measurement call to action",
+    "Two paths for a new build or a window and door replacement, each with what to prepare",
+    "Product catalogue in three groups: windows, doors and garage doors, installation and service",
+    "Showroom section with colour swatches, questions for the adviser and opening hours",
+    "Three-step process from the first call to installation, with the timing of each step",
+    "FAQ on Uw values, dust, delivery, warranty and tax relief, with FAQPage structured data",
+    "Client reviews with an average rating",
+    "Three product pages: windows, doors and garage doors, installation and service",
+    "Projects page with three projects and their scope",
+    "Measurement enquiry form with a product choice",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": ".p-paths", "middle": ".p-show", "late": ".p-proc" }
+}
