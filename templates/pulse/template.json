@@ -1,0 +1,34 @@
+{
+  "id": "T009",
+  "slug": "pulse",
+  "name": "Pulse",
+  "tagline": "Ready-made website for personal trainers and dietitians",
+  "description": "Pulse is a website template for personal trainers, dietitians and small training studios, with a dark hero where an outlined headline word runs across a training photo, a slowly moving ticker of services with prices, a weekly schedule where each slot shows its length as a bar and a chosen time goes straight into the booking form, three packages laid out week by week, a stack of client stories, a two-person team section and a first session form with goal buttons. Graphite with a single orange accent and Archivo Black headings give the website a bold, focused character. Replace the copy, prices, schedule, photos, stories and legal pages with your own before publishing.",
+  "category": "business",
+  "industry": "Personal trainer and dietitian",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-pulse.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/pulse/"
+  },
+  "features": [
+    "Hero with an outlined headline word running across the training photo",
+    "Slowly moving service ticker with prices that pauses on hover and focus",
+    "Weekly schedule from Monday to Saturday with session length bars and booked slots",
+    "Choosing a free slot fills in the day, time and session type in the booking form",
+    "Day switcher with one day's list of times on mobile",
+    "Three packages laid out week by week, with sessions and contact between sessions",
+    "Stack of client stories with arrows, each with a starting point and what changed in the week",
+    "Services page with a comparison table of eight formats, payment terms and a guide to choosing",
+    "Three service pages: personal training with a minute-by-minute first session, online training and nutrition",
+    "Transformations page with full stories and a weekly plan for each",
+    "First session form with goal and experience buttons and three short answers with FAQPage structured data",
+    "Polish and English versions, desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": ".p-schedule", "middle": ".p-packages", "late": ".p-stories" }
+}
