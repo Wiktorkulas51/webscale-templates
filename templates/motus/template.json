@@ -1,0 +1,32 @@
+{
+  "id": "T007",
+  "slug": "motus",
+  "name": "Motus",
+  "tagline": "Ready-made website for physiotherapy practices",
+  "description": "Motus is a website template for physiotherapy practices, with a first visit told step by step beside a sticky photo, a price list with visit lengths, the team with their areas of work and short patient stories. A movement line running down the margin, deep teal with a coral accent and the Literata serif give the website a calm, caring character. Replace the copy, photos, practice details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Physiotherapy",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-motus.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/motus/"
+  },
+  "features": [
+    "Hero with a first visit card: price, three stages and booking",
+    "Movement line in the margin that follows the page",
+    "First visit step by step beside a sticky photo",
+    "Team portraits with areas of work and qualifications",
+    "Price list with visit length and thumbnails",
+    "Patient stories with photos",
+    "Client reviews, to be replaced with genuine testimonials",
+    "FAQ and booking form",
+    "App-style bottom bar on mobile",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"]
+}
