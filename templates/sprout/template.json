@@ -1,0 +1,33 @@
+{
+  "id": "T026",
+  "slug": "sprout",
+  "name": "Sprout",
+  "tagline": "Ready-made website for preschools and nurseries",
+  "description": "Sprout is a website template for private preschools and nurseries, with a group finder where parents enter the child's month and year of birth and see the group, free places and the monthly cost after subsidies, four age groups with teachers and places left, a daily rhythm strip, this week's menu with today highlighted, the teachers, parent reviews, FAQ and an enrolment calendar. Fresh green, sky blue and warm cream with wide Unbounded headings give the website a friendly, cheerful character. Replace the copy, photos, fees, menu, recruitment dates and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Preschool and nursery",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-sprout.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/sprout/"
+  },
+  "features": [
+    "Group finder by month and year of birth, with free places and the monthly cost after subsidies",
+    "Four age groups with teachers, group size and places left",
+    "Daily rhythm strip from breakfast to afternoon play",
+    "This week's menu with today highlighted",
+    "Teachers, speech therapist and English teacher",
+    "Parent reviews, to be replaced with genuine testimonials",
+    "Parent FAQ with FAQPage structured data",
+    "Enrolment calendar with dates and steps",
+    "Group pages with fees and the daily plan",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#group-finder" }
+}

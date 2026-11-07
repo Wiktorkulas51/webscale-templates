@@ -1,0 +1,33 @@
+{
+  "id": "T023",
+  "slug": "tilia",
+  "name": "Tilia",
+  "tagline": "Ready-made website for psychotherapy practices",
+  "description": "Tilia is a website template for psychotherapy practices that see adults, couples and teenagers in person and online, with a three question matcher that suggests a therapist and their next free appointment, a crisis box with helpline numbers for anyone who cannot wait, therapist cards with approach, languages and the next slot, a calm description of the first meeting, a price table and FAQ. Soft linen tones, deep navy and Spectral serif headings give the website a quiet, reassuring character. Replace the copy, photos, therapists, fees and helpline numbers with your own and check them against the professional ethics rules before publishing.",
+  "category": "business",
+  "industry": "Psychotherapy practice",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-tilia.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/tilia/"
+  },
+  "features": [
+    "Three question matcher that suggests a therapist and the next free appointment",
+    "Crisis box with free helpline numbers",
+    "Common reasons people come, in their own words",
+    "Therapist cards with approach, languages and the next slot",
+    "First meeting described step by step",
+    "Price table with session lengths and the cancellation rule",
+    "FAQ with FAQPage structured data",
+    "Service pages for individual, couples and teenage therapy",
+    "Contact section with directions to the practice",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#start" }
+}

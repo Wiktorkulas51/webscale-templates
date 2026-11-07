@@ -1,0 +1,32 @@
+{
+  "id": "T025",
+  "slug": "verba",
+  "name": "Verba",
+  "tagline": "Ready-made website for language schools",
+  "description": "Verba is a website template for language schools that teach small groups, with a six question level test that ends with the student's level and the groups that match it, a schedule of new groups filtered by lesson day with places left, course bands for children, teens, adults and companies with the price per semester and per lesson, teachers who greet visitors in their own language, honest exam results and student stories. Sunny yellow, warm paper and Red Hat Display with Newsreader italics for foreign words give the website a lively, welcoming character. Replace the copy, photos, prices, schedule, test questions and results with your own before publishing.",
+  "category": "business",
+  "industry": "Language school",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-verba.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/verba/"
+  },
+  "features": [
+    "Level test with six questions, the resulting level and matching groups",
+    "Schedule of new groups with a lesson day filter and places left",
+    "Course bands with the price per semester and per lesson",
+    "Teachers with a greeting in the language they teach",
+    "Exam results counted for every student",
+    "Student stories with level progress, to be replaced with genuine testimonials",
+    "FAQ with FAQPage structured data",
+    "Course pages with the programme, schedule and price",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#level-test" }
+}
