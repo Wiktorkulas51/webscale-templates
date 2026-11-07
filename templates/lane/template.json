@@ -1,0 +1,33 @@
+{
+  "id": "T018",
+  "slug": "lane",
+  "name": "Lane",
+  "tagline": "Ready-made website for driving schools",
+  "description": "Lane is a website template for driving schools, with a licence category switch that filters course start dates, price packages and the sign-up form at once, a step by step route to the licence with time and cost, instructors and first-attempt pass rates. Graphite asphalt, a green go light and the bold Unbounded typeface give the website a confident, road-ready character. Replace the copy, photos, school details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Driving school",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-lane.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/lane/"
+  },
+  "features": [
+    "Licence category switch shared by the start dates, price tabs and form",
+    "Course start dates board with free seats and a waiting list",
+    "Route to the licence in six stops, each with time and cost",
+    "Category tabs with priced packages",
+    "Course pages with a week by week plan",
+    "Instructors section",
+    "Pass rates compared with the exam centre average",
+    "Student and parent reviews, to be replaced with genuine testimonials",
+    "FAQ and sign-up form",
+    "Mobile menu with the nearest course start",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"]
+}
