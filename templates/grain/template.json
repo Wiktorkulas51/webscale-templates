@@ -1,0 +1,32 @@
+{
+  "id": "T024",
+  "slug": "grain",
+  "name": "Grain",
+  "tagline": "Ready-made website for bespoke furniture makers",
+  "description": "Grain is a website template for bespoke furniture and kitchen makers, with a hero where visitors drag a line between the technical drawing and the finished kitchen, furniture categories with prices per linear metre, a wall of material samples hanging on rings, a four-stage process set on dimension lines, client reviews with project photos and a projects page with city and floor area. Forest green, charcoal and warm off-white with Barlow Condensed headings give the website a precise, workshop character. Replace the copy, prices, figures, photos, reviews and legal pages with your own before publishing.",
+  "category": "business",
+  "industry": "Bespoke furniture maker",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-grain.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/grain/"
+  },
+  "features": [
+    "Hero with a draggable before and after line between the drawing and the finished kitchen",
+    "Furniture cards with prices per linear metre",
+    "Three furniture pages: kitchens, wardrobes, bathrooms and home offices",
+    "Material samples for fronts and worktops, styled as tags on a ring",
+    "Four-stage process from measurement to installation on dimension lines",
+    "Key figures about the workshop",
+    "Client reviews with project photos, to be replaced with genuine testimonials",
+    "Projects page with eight interiors, city and floor area",
+    "Measurement booking form",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"]
+}
