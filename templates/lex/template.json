@@ -1,0 +1,33 @@
+{
+  "id": "T022",
+  "slug": "lex",
+  "name": "Lex",
+  "tagline": "Ready-made website for law offices",
+  "description": "Lex is a website template for law offices that serve people and businesses, with a deadline calculator that turns the type of court letter and the date it arrived into the last day to respond, the days left and what to do today, practice areas for people and for companies, a fee table with four ways of charging, a checklist of documents to bring for each type of matter and attorney profiles with focus and languages. Prussian blue on warm paper with Schibsted Grotesk headings give the website a calm, precise character. Replace the copy, photos, attorneys, fees and deadlines with your own and check them against the professional conduct rules before publishing.",
+  "category": "business",
+  "industry": "Law office",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-lex.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/lex/"
+  },
+  "features": [
+    "Deadline calculator for court letters, with the last day to respond, days left and weekend shift",
+    "Practice areas for people and for companies",
+    "Fee table with consultation, fixed fee, hourly rate and ongoing support",
+    "Checklist of documents for the first meeting by type of matter",
+    "Attorney profiles with focus and languages",
+    "FAQ with FAQPage structured data",
+    "Service pages with a photo header and the next steps",
+    "Contact section styled as a letterhead",
+    "No star ratings or client reviews, which suits a law office",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#deadline" }
+}

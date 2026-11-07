@@ -1,0 +1,34 @@
+{
+  "id": "T020",
+  "slug": "blade",
+  "name": "Blade",
+  "tagline": "Ready-made website for barbershops",
+  "description": "Blade is a website template for barbershops, with the next free slot and each barber's earliest time right in the hero, a three step booking where the visitor picks a barber, a service and a time while a summary card keeps the price and duration, a price list with the time of each service, a gallery of cuts from the shop, products from the shelf and a location section. Dark green and cream with bold Bricolage Grotesque headings give the website a sharp, confident character. Replace the copy, photos, barbers, prices, booking slots and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Barbershop",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-blade.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/blade/"
+  },
+  "features": [
+    "Hero with the next free slot and each barber's earliest time today",
+    "Three step booking: barber, service and time, with a summary card",
+    "Barbers section with specialities",
+    "Price list with the duration of each service",
+    "Service pages with the visit step by step and a recommended barber",
+    "Gallery of cuts from the shop",
+    "Products from the shelf with prices",
+    "Customer reviews, to be replaced with genuine testimonials",
+    "Location section with opening hours and a map link",
+    "Mobile booking bar",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#booking" }
+}
