@@ -1,0 +1,34 @@
+{
+  "id": "T015",
+  "slug": "torque",
+  "name": "Torque",
+  "tagline": "Ready-made website for car repair workshops",
+  "description": "Torque is a website template for car repair workshops and mechanics, with a dark hero where a vertical outlined TORQUE wordmark runs beside a mechanic at work, a price list with times and starting prices, a repair order builder where visitors tick jobs and watch a printed order card add up an estimated total, a workshop gallery, a red band with four promises, a list of car makes, driver reviews with a rating, questions before the visit and a contact section with opening hours. Graphite, light grey and a single workshop red with Oswald headings give the website a direct, honest character. Replace the copy, prices, times, photos, reviews and legal pages with your own before publishing.",
+  "category": "business",
+  "industry": "Car repair workshop",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-torque.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/torque/"
+  },
+  "features": [
+    "Hero with a vertical outlined wordmark, a mechanic photo in an offset frame and a rating",
+    "Price list of eight jobs with the usual time and starting price",
+    "Repair order builder: tick jobs and a printed order card shows each line and an estimated total",
+    "Workshop gallery with four bays",
+    "Red band with four promises: price before repair, parts you can see, 12 month warranty, fault photos",
+    "Car makes the workshop services, as plain text",
+    "Driver reviews with car model, date and average rating",
+    "Questions before the visit with FAQPage structured data",
+    "Three service pages with a scope, time and price table and their own FAQ",
+    "Recent repairs page with problem, diagnosis, cost and time",
+    "Booking form with a service choice, Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": ".tq-order", "middle": ".tq-rules", "late": ".tq-reviews" }
+}
