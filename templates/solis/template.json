@@ -1,0 +1,31 @@
+{
+  "id": "T017",
+  "slug": "solis",
+  "name": "Solis",
+  "tagline": "Ready-made website for solar energy installers",
+  "description": "Solis is a website template for solar energy installers, with a hero that shows the key figures of a typical home system, an interactive sun-over-roof section where visitors pick a month and a time of day, a subsidy guide step by step, recent projects with yearly savings and pages for solar panels, heat pumps and home batteries. Deep petrol, warm peach and a sky that moves from morning to evening as you scroll give the website a calm, honest character. Replace the copy, figures, subsidy details, photos, reviews and legal pages with your own before publishing.",
+  "category": "business",
+  "industry": "Solar energy installer",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-solis.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/solis/"
+  },
+  "features": [
+    "Hero with a sun arc and the key figures of a typical system",
+    "Interactive sun-over-roof section with month and time-of-day controls",
+    "Three service pages: solar panels, heat pumps and home batteries, each with a cost and payback table",
+    "Subsidy guide, step by step, with who does what, how long it takes and the amount",
+    "Recent projects with system size and yearly saving",
+    "FAQ on net-billing, subsidies and servicing",
+    "Client reviews, to be replaced with genuine testimonials",
+    "Free energy audit form with a sticky audit tab",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"]
+}
