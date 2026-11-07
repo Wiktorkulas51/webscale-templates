@@ -1,0 +1,32 @@
+{
+  "id": "T021",
+  "slug": "flora",
+  "name": "Flora",
+  "tagline": "Ready-made website for florists and flower studios",
+  "description": "Flora is a website template for florists and flower studios, with a centred logo between two halves of the menu, a hero collage of bouquet prints on a sage field, occasion tiles with clear prices, a bouquet of the day, a bouquet composer that suggests three bouquets by occasion, colour and budget, a same-day delivery map with zone prices, wedding packages with a quote form and an office subscription. Raspberry rose, sage and cream with the Spectral serif give the website a warm, handmade character. Replace the copy, photos, prices, delivery zones and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Florist",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-flora.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/flora/"
+  },
+  "features": [
+    "Hero collage of bouquet prints with same-day delivery cut-off",
+    "Occasion tiles with prices: birthdays, love, sympathy and business",
+    "Bouquet of the day with flowers, price and availability",
+    "Bouquet composer: occasion, colour and budget, with three matching bouquets",
+    "Delivery map with zone prices and time windows",
+    "Wedding packages with a quote request form",
+    "Office flower subscription plans",
+    "Client reviews, to be replaced with genuine testimonials",
+    "Order form that the composer fills in",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"]
+}
