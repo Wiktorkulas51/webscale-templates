@@ -3,7 +3,7 @@
   "slug": "pine",
   "name": "Pine",
   "tagline": "Ready-made website for mountain guesthouses",
-  "description": "Pine is a website template for small mountain guesthouses, with a hero that pairs the house photo with trail signposts showing walking times to nearby sights and a date and guests bar, room cards with prices per night, a breakfast section with hours, what is on the table and a diet question, a trails section with a summer and winter switch, a hosts section with key facts, guest reviews, house rules for check-in, parking and pets, and an availability form. Forest green, cream and the colours of mountain trail marks with Oswald headings give the website a calm, outdoor character. Replace the copy, prices, trails, photos, reviews and legal pages with your own before publishing.",
+  "description": "Pine is a website template for small mountain guesthouses, with a hero that pairs the house photo with trail signposts showing walking times to nearby sights and a date and guests bar, an availability calendar with booked nights per room, seasonal rates and the price of the whole stay, room cards with prices per night, a breakfast section with hours, what is on the table and a diet question, a trails section with a summer and winter switch, a hosts section with key facts, guest reviews, house rules for check-in, parking and pets, and an availability form. Forest green, cream and the colours of mountain trail marks with Oswald headings give the website a calm, outdoor character. Replace the copy, prices, trails, photos, reviews and legal pages with your own before publishing.",
   "category": "business",
   "industry": "Guesthouse",
   "stack": ["astro", "tailwind"],
@@ -17,6 +17,7 @@
   },
   "features": [
     "Hero with trail signposts showing walking times and an arrival, departure and guests bar",
+    "Availability calendar: booked nights per room, seasonal rates, minimum stay and the total price, keyboard accessible",
     "Room cards with guests, size and price per night",
     "Breakfast section with hours, a menu list and a diet enquiry",
     "Three room pages with amenities and a booking enquiry",
