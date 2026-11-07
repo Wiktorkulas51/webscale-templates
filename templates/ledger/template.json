@@ -1,0 +1,34 @@
+{
+  "id": "T019",
+  "slug": "ledger",
+  "name": "Ledger",
+  "tagline": "Ready-made website for accounting offices",
+  "description": "Ledger is a website template for accounting offices that keep the books for sole traders and companies, with an audience switch for four kinds of clients, a fee calculator that counts documents, employees and contracts and highlights the matching plan in the price table, a tax calendar that follows the form of business and counts the days to the next deadline, and a four step switch from another office. Burgundy accents on bone paper with Newsreader headings give the website a calm, trustworthy character. Replace the copy, photos, office details, prices, tax dates and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Accounting office",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-ledger.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/ledger/"
+  },
+  "features": [
+    "Audience switch for sole traders, companies, e-commerce and medical practices",
+    "Fee calculator that highlights the matching plan in the price table",
+    "Price table with four plans and extras",
+    "Tax calendar that follows the form of business, with a countdown to the next deadline",
+    "Four step switch from another office",
+    "Service pages for sole traders, companies, payroll and tax advice",
+    "Team section for the people who sign the returns",
+    "Client reviews, to be replaced with genuine testimonials",
+    "FAQ with a sticky intro and FAQPage structured data",
+    "Contact form",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#cennik" }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "T016",
+  "slug": "ridge",
+  "name": "Ridge",
+  "tagline": "Ready-made website for roofing companies",
+  "description": "Ridge is a website template for roofing and sheet metal companies, with a roof cross-section that explains each layer and its material, a roof cost estimator that turns the roof area, scope and material into a price range and working days, a map of recent jobs across the region and a process from the inspection to the handover. Slate ink, copper flashing and warm paper with condensed Bebas Neue headings give the website a sturdy, craftsman character. Replace the copy, photos, company details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Roofing company",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-ridge.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/ridge/"
+  },
+  "features": [
+    "Hero with a rating, a free quote and an emergency call button",
+    "Roof cross-section with the job and material of each layer",
+    "Roof cost estimator with area, scope and material, showing a price range and working days",
+    "Services with prices per square metre",
+    "Map of recent jobs with scope, duration and material",
+    "Written warranty band",
+    "Process from the inspection to the handover with the time of each stage",
+    "Service pages with a material table and FAQ with FAQPage structured data",
+    "Customer reviews, to be replaced with genuine testimonials",
+    "Contact section and quote form",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "[data-rg-estimate]" }
+}
