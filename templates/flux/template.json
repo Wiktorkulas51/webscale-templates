@@ -1,0 +1,33 @@
+{
+  "id": "T012",
+  "slug": "flux",
+  "name": "Flux",
+  "tagline": "Ready-made website for plumbing companies",
+  "description": "Flux is a website template for plumbing and heating companies that take emergency calls and planned work, with a hero that splits visitors into a leak right now, with the emergency number, and planned work, an emergency section where the visitor picks a district and sees the estimated arrival time, planned work with duration and cost, indicative prices, a four stage process with job photos, reviews and FAQ. A bold Sora typeface and a clear emergency call to action give the website a fast, dependable character. Replace the copy, photos, districts, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Plumbing company",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-flux.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/flux/"
+  },
+  "features": [
+    "Hero with two paths: a leak right now with the emergency number, or planned work",
+    "Emergency arrival time by district",
+    "Planned work with duration and cost for six kinds of jobs",
+    "Indicative price table",
+    "Four stage process with photos from jobs",
+    "Customer reviews, to be replaced with genuine testimonials",
+    "FAQ about call-out fees, invoices and warranty",
+    "Recent jobs page with scope and location",
+    "Contact and quote form",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"],
+  "screens": { "early": "#awaria" }
+}
