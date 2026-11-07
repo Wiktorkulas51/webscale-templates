@@ -1,0 +1,33 @@
+{
+  "id": "T006",
+  "slug": "volta",
+  "name": "Volta",
+  "tagline": "Ready-made website for electricians",
+  "description": "Volta is a website template for electricians and electrical contractors, with a services table showing who each service is for and what it covers, an emergency fault line, a process that runs like a circuit from plan to test report, recent projects and the crew. Graphite, electric yellow and condensed type on a technical grid give the website a precise, trade-ready character. Replace the copy, photos, company details, prices and reviews with your own before publishing.",
+  "category": "business",
+  "industry": "Electrician",
+  "stack": ["astro", "tailwind"],
+  "pricing": "paid",
+  "priceUsd": 79,
+  "links": {
+    "liveDemo": "https://webscale-volta.vercel.app/",
+    "sourceRepo": null,
+    "gumroad": null,
+    "details": "https://webscale.pl/en/ready-made-websites/volta/"
+  },
+  "features": [
+    "Hero with qualifications, test reports and service area",
+    "Emergency band with a fault line and safety notes",
+    "Services table: who it is for and what it covers",
+    "Process drawn as a circuit from plan to test report",
+    "Measurement report sheet",
+    "Recent projects with property and scope",
+    "Crew with certificates",
+    "Client reviews, to be replaced with genuine testimonials",
+    "FAQ and contact form",
+    "Full-screen mobile menu with the emergency number",
+    "Polish and English versions",
+    "Desktop, tablet and mobile layouts"
+  ],
+  "channels": ["gumroad", "dribbble", "behance", "webscale-site"]
+}
