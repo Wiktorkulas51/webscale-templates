@@ -4,6 +4,14 @@ A catalog of ready-made website templates built with Astro and Tailwind CSS. Eve
 
 Free templates link to their public source repositories. Premium templates are sold on Gumroad under their own licence; their source code is not published here.
 
+## Animated versions on onepaste
+
+Want these designs with scroll animations, micro-interactions and copy-paste prompts to rebuild them with AI (Lovable, v0, Bolt, Claude, Cursor)? We're developing them further at [onepaste](https://onepaste.dev/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates). Some templates are free.
+
+- Ivory: [Sorel on onepaste](https://onepaste.dev/templates/sorel/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates)
+- Greenline: [Tendril on onepaste](https://onepaste.dev/templates/tendril/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates)
+- Fauna: [Ludo on onepaste](https://onepaste.dev/templates/ludo/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates)
+
 ## Free templates
 
 ### Nova
