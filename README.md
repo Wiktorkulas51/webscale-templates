@@ -6,6 +6,8 @@ Free templates link to their public source repositories. Premium templates are s
 
 ## Animated versions on onepaste
 
+[![onepaste: animated websites with copy-paste prompts](assets/onepaste/onepaste-preview.gif)](https://onepaste.dev/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates)
+
 Want these designs with scroll animations, micro-interactions and copy-paste prompts to rebuild them with AI (Lovable, v0, Bolt, Claude, Cursor)? We're developing them further at [onepaste](https://onepaste.dev/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates). Some templates are free.
 
 - Ivory: [Sorel on onepaste](https://onepaste.dev/templates/sorel/?utm_source=github&utm_medium=referral&utm_campaign=webscale-templates)
